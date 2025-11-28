@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tp Web [Etapa 3] - Tarzan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+
+    <style>
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 45%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top"> <!--NAVEGADOR-->
+        <div class="container-fluid">
+
+            <a class="navbar-brand"> <!--IMAGEN/LOGO NAV-->
+                <img src="img/tarzan.png" alt="Logo de Tarzán" class="d-inline-block align-text-top me-2"
+                    style="height: 30px;">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tarzan">Sobre Tarzán</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proceso">Proceso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#integrantes">Integrantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resultado">Resultado</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row p-4">
+
+            <div class="col-12 g-5">
+                <h1 id="inicio">LA HISTORIA DE TARZÁN</h1>
+            </div>
+
+            <!--INICIO-->
+            <div class="row ">
+                <div id="tema" class="col-md-7 col-sm-12 g-5">
+                    <img src="img/portada.png" class="img-fluid" alt="portada">
+                </div>
+
+                <div class="col-md-5 col-sm-12 g-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Sobre la temática</h2>
+                            <p class="card-text">Se nos asignó la temática de Tarzán para desarrollar una aventura
+                                gráfica, en la que narramos su historia y presentamos diversos finales posibles. Para
+                                ilustrar el recorrido narrativo, utilizamos a la inteligencia artificial como herramienta.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tarzan" class="row p-4">
+                <div class="col-md-6 col-sm-12 g-5">
+                    <h3>¿Quién es Tarzán?</h3>
+                    <p>Tarzán es un personaje clásico de la literatura creado por Edgar Rice Burroughs. Su historia
+                        comienza cuando, siendo apenas un bebé, queda huérfano en la selva africana y es adoptado por
+                        una familia de gorilas. Crece lejos de la civilización, aprendiendo a sobrevivir entre los
+                        animales y desarrollando una fuerza, agilidad y conexión con la naturaleza que lo distinguen del
+                        resto. A medida que madura, Tarzán se convierte en el protector de la selva, defendiendo su
+                        hogar de amenazas externas.
+                    </p>
+
+                </div>
+
+                <div class="col-md-6 col-sm-12 g-5">
+                    <h3>¿De qué trata la pelicula de Tarzán?</h3>
+                    <p>La película más conocida de Tarzán narra justamente este viaje de identidad. Muestra su infancia
+                        salvaje, su relación con los gorilas y el descubrimiento del mundo humano cuando conoce a Jane,
+                        una exploradora que despierta su curiosidad y lo enfrenta a la decisión de elegir entre la selva
+                        que lo crió y la humanidad a la que pertenece por nacimiento. La historia combina aventura,
+                        emoción y temas como la familia, el respeto por la naturaleza y el conflicto entre dos mundos
+                        opuestos, mostrando a Tarzán como un puente entre ambos.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--PROCESO-->
+        <div id="proceso" class="row p-4">
+            <h1 class="p-4">Proceso</h1>
+        <div id="carouselExampleCaptions" class="carousel slide d-block mx-auto" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/paso1.png" class="d-block mx-auto" style="max-width: 60%;" alt="Paso 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Primer paso</h5>
+                        <p>Partimos de la temática propuesta en clase y usamos IA para generar un resumen<br>claro de la
+                            historia de Tarzán. Después le pedimos que inventara dos finales alternativos,<br>para poder
+                            construir una aventura gráfica con distintas rutas narrativas.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/paso2.png" class="d-block mx-auto" style="max-width: 60%;" alt="Paso 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Segundo paso</h5>
+                        <p>Armamos un diagrama de flujo que muestra todas las decisiones posibles y cómo<br>cada una
+                            lleva a uno de los tres finales. Este paso fue clave para organizar<br>la narrativa y
+                            definir la estructura del juego.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/paso3.png" class="d-block mx-auto" style="max-width: 60%;" alt="Paso 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tercer paso</h5>
+                        <p>Con el diagrama aprobado, generamos todas las imágenes de la aventura<br>usando herramientas
+                            de inteligencia artificial. Cada pantalla necesitaba<br>una ilustración que acompañara el
+                            momento de la historia.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/paso4.png" class="d-block mx-auto" style="max-width: 60%;" alt="Paso 4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cuarto paso</h5>
+                        <p>Finalmente empezamos a programar en p5.js: manejo de pantallas, botones, decisiones y
+                            finales.<br>Con todo integrado, llegamos a la versión final del proyecto.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="integrantes" class="row p-4">
+            <div class="col-12 g-5">
+                <h1>Integrantes</h1> <!--ACORDION-->
+            </div>
+            <div class="col-sm-12 col-md-">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Betancu Celeste
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="row align-items-center">
+                                    <div class="col-2"> <!--img de 2 columnas a la izq, info a la derecha -->
+                                        <img src="img/cele.png" alt="Foto de Celeste" style="max-width: 150px;">
+                                    </div>
+                                    <div class="col-10">
+                                        Hola! Soy Celeste, tengo 23 años y estudio Diseño Multimedial.
+                                        De chica pasaba horas en Blogspot retocando el HTML, cambiando plantillas,
+                                        acomodando widgets y rompiendo el layout para entender cómo se armaba todo. Hoy
+                                        la
+                                        programación web es otra forma de seguir encontrando puentes entre el mundo
+                                        visual y
+                                        el funcional. Vengo del mundo artístico (música, dibujo y ahora tatuajes) y me
+                                        motiva aprender haciendo, equivocarme y encontrar soluciones creativas. Busco
+                                        que
+                                        cada cosa que intervengo tenga identidad propia.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Uset Felix
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-2">
+                                            <img src="img/felix.png" alt="Foto de Felix" style="max-width: 150px;">
+                                        </div>
+                                        <div class="col-10">
+                                            Hola, soy Félix, tengo 21 años y estudio Diseño Multimedial. Me considero
+                                            una persona creativa, siempre motivada por el arte y por encontrar nuevas
+                                            formas de expresar ideas. Me apasiona el mundo de los videojuegos y la
+                                            programación, porque combinan diseño, narrativa y tecnología de una manera
+                                            que me inspira a seguir aprendiendo. Actualmente estoy desarrollando mi
+                                            propio negocio, y la programación web se ha convertido en una herramienta
+                                            fundamental para hacerlo crecer. Me entusiasma poder crear mis propias
+                                            soluciones, darles mi estilo y aplicar mis
+                                            conocimientos para construir proyectos originales que reflejen quién soy y
+                                            lo que me gusta hacer.
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="resultado" class="row p-4">
+
+                        <div class="col-12 g-5">
+                            <h1>Resultado de la Aventura Gráfica</h1>
+                        </div>
+
+                        <div class="col-12 g-4 d-flex justify-content-center">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-tarzan" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                ¡Presioná para ver!
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-fullscreen">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Aventura Grafica -
+                                                Tarzan</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <iframe src="tpfinalparte1/index.html" frameborder="0" width="100%"
+                                                height="490"></iframe>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                    crossorigin="anonymous"></script>
+</body>
+
+</html>

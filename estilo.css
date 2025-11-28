@@ -1,0 +1,48 @@
+body {
+    background-image: url(img/fondohojas.png)
+}
+
+nav {
+    background-color: rgb(98, 165, 21);
+}
+
+nav .nav-link {
+    color: white !important; 
+}
+
+nav .nav-link:hover {
+    color:darkgreen !important;
+}
+
+.navbar-toggler {
+    background-color: rgb(205, 238, 163); /*SUMA FONDO AL MENU HAMBURGUESA*/
+    border-color: rgb(205, 238, 163);
+}
+
+.container {
+    background-color: white;
+}
+
+h1,h2 {
+    color: rgb(25, 100, 6);
+    text-align: center;
+}
+
+h3 {
+    color: rgb(25, 100, 6);
+    text-align: left;
+}
+
+.btn-tarzan {
+    background-color: rgb(98, 165, 21); 
+    border-color: rgb(98, 165, 21);
+    color: rgb(213, 255, 188);
+    padding: 10px 30px; 
+    font-weight: bold;
+}
+
+.btn-tarzan:hover {
+    background-color: rgb(141, 219, 89);
+    border-color: rgb(141, 219, 89);
+    color: rgb(16, 66, 3);
+}
